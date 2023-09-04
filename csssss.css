@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&family=Raleway:ital,wght@1,762&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+}
+.home{
+    height: 104vh;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgba(0,0,0,0.5)), url(./doctor-looking-camera-after-typing-computer-modern-private-hospital-clinic-working-consultation-room-while-nurse-back-is-talking-with-patient-glass-walls.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+.navbar .logo a{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.navbar ul a{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+.navbar .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.navbar .login i{
+    color: aliceblue;
+    font-size: 1.7rem;
+}
+.navbar .liste a:hover{
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: .4rem; 
+}
+.home .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;  
+    padding: 0 2rem;
+    width: 30rem;
+    
+}
+.center h2{
+    color: aliceblue;
+    font-weight: 100;
+    font-size: .9rem;
+}
+.center h1{
+    color: aliceblue;
+    font-size: 3.3rem;
+    margin-top: 1rem;
+}
+.center p{
+    color: aliceblue;
+    font-weight: 100;
+    font-size: .8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.center a{
+    color: aliceblue;
+}
+.center .btn1{
+    background-color: blue;
+    padding: .5em 2rem;
+    border-radius: 50px;
+}
+.center .btn2{
+
+    margin-left: 1.5rem ;
+}
+.insights{
+  
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+   
+    width: 40rem;
+}
+.insight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.insight h3{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.insight h4{
+    color: aliceblue;
+    font-weight: 100;
+    font-size: .8rem;
+    text-align: center;
+}
+.menu{
+    display: none;
+}
+@media only screen and (max-width:850px)
+{
+    
+
+    .navbar{
+
+        background-color: aliceblue;
+        position: fixed;
+        
+        width: 93%;
+        
+       
+        box-shadow: 10px 10px 10px 10px alicebluE;
+        
+        
+        
+    }
+    .navbar .logo a{
+        color: blue;
+    }
+    .navbar .login i{
+        color: blue;
+    }
+    .navbar ul a {
+        color: aliceblue;
+        font-size: 1.3rem;
+    }
+    .navbar ul{
+
+        flex-direction: column;
+        position: absolute;
+        background-color: #219ebc;
+        padding: 1rem 3rem;
+        right: -50%; 
+        top: 100%;
+        border-radius: 40px;
+    
+        transition: 1s ease-in-out;
+        
+    }
+    .navbar .show{
+
+        right: 0;
+    }
+    .menu{
+        display: block;
+    }
+    .navbar .login i{
+        font-size: 2.5rem;
+
+
+    }
+    .center .btn1{
+        background-color: #219ebc;    }
+    .center{
+        display: flex;
+        
+        
+    }
+    
+    .center h2{
+        margin-top: 10rem;
+    }
+    .home{
+
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+    
+
+
+}
+
